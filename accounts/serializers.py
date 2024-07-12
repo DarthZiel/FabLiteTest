@@ -16,3 +16,10 @@ class RegistrationSerializer(ModelSerializer):
             password=validated_data['password']
         )
         return user
+
+
+class UserSerializer(ModelSerializer):
+    class Meta:
+        model = CustomUser
+        fields = ['id', 'email', 'password', 'first_name', 'last_name']
+        extra_kwargs = {'password': {'write_only': True}}
