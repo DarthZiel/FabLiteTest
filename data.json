@@ -1,0 +1,132 @@
+[
+  {
+    "model": "accounts.CustomUser",
+    "pk": 1,
+    "fields": {
+      "email": "admin@example.com",
+      "first_name": "Admin",
+      "last_name": "User",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "password": "qaws1234"
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 2,
+    "fields": {
+      "email": "user1@example.com",
+      "first_name": "User",
+      "last_name": "One",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 3,
+    "fields": {
+      "email": "user2@example.com",
+      "first_name": "User",
+      "last_name": "Two",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 4,
+    "fields": {
+      "email": "user3@example.com",
+      "first_name": "User",
+      "last_name": "Three",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 5,
+    "fields": {
+      "email": "user4@example.com",
+      "first_name": "User",
+      "last_name": "Four",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 6,
+    "fields": {
+      "email": "user5@example.com",
+      "first_name": "User",
+      "last_name": "Five",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 7,
+    "fields": {
+      "email": "user6@example.com",
+      "first_name": "User",
+      "last_name": "Six",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 8,
+    "fields": {
+      "email": "user7@example.com",
+      "first_name": "User",
+      "last_name": "Seven",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 9,
+    "fields": {
+      "email": "user8@example.com",
+      "first_name": "User",
+      "last_name": "Eight",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  },
+  {
+    "model": "accounts.CustomUser",
+    "pk": 10,
+    "fields": {
+      "email": "user9@example.com",
+      "first_name": "User",
+      "last_name": "Nine",
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "password": "pbkdf2_sha256$260000$Y3Dpoxm4MDXl$1EAtUzj5gWnC4L/VEpo2y0sm2Xg3S9DS0E0c1/8O63M="
+    }
+  }
+]

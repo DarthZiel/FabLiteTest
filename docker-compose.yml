@@ -12,7 +12,7 @@ services:
 
   web:
     build: .
-    command: sh -c "sleep 5 && poetry run python manage.py runserver 0.0.0.0:8000"
+    command: sh -c "sleep 5 && poetry run python manage.py makemigrations && poetry run python manage.py migrate --noinput && poetry run python manage.py runserver 0.0.0.0:8000 --settings=settings.settings"
     volumes:
       - .:/app
     ports:
