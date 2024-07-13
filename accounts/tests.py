@@ -83,13 +83,8 @@ class AccountTests(APITestCase):
             CustomUser.objects.get(pk=user.pk)
 
     def test_user_authentication(self):
-        # URL для защищённого ресурса (например, список пользователей)
-        url = reverse('user-list')
-
-        # Авторизуем пользователя
+        url = reverse('user')
         self.client.login(email='testuser@mail.ru', password='qaws1234')
-
-        # Отправляем GET запрос к защищённому ресурсу
         response = self.client.get(url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
